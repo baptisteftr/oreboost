@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.oreboost.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"FeaturePlacerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

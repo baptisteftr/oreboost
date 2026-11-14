@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "oreboost",
+	"version": "${version}",
+	"name": "OreBoost",
+	"description": "Mod server-side : multiplie (ou réduit) la fréquence de génération des minerais sans changer les couches où ils apparaissent.",
+	"authors": [
+		"baptisteftr"
+	],
+	"contact": {
+		"homepage": "https://github.com/baptisteftr/oreboost",
+		"sources": "https://github.com/baptisteftr/oreboost",
+		"issues": "https://github.com/baptisteftr/oreboost/issues"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.oreboost.OreBoost"
+		]
+	},
+	"mixins": [
+		"oreboost.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
